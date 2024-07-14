@@ -1,0 +1,22 @@
+
+.board {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .column-container {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  .task-container {
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
+  

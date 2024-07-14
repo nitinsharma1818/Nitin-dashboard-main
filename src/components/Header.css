@@ -1,0 +1,46 @@
+/* src/components/Header.css */
+/* src/components/Header.css */
+.header {
+    background-color: #3f51b5 !important;
+  }
+  
+  .header-title {
+    flex-grow: 1;
+  }
+  
+  .header-icon {
+    color: white;
+  }
+  .header-table {
+  margin-top: 20px;
+}
+
+.header-table h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.data-table th, .data-table td {
+  padding: 10px 15px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
